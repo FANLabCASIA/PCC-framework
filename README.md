@@ -8,22 +8,25 @@ Object representations in the human higher visual cortex (HVC) support complex r
 
 We provide the code of each analyzing step following the pipeline used in our work.
 
-## object property space
+## Object property space
 ### 1_property_relation.ipynb analyzed the property relations and build the low-dimensional property space using PCA.
 
-## property tuning in human brain by encoding method
+## Property tuning in human brain by encoding method
 ### 2_prepare_data_for_encoding_model.ipynb prepared training and testing set of image property - brain response pairs.
 ### 3_vox_encode_prop_pcs.m was the training procedure of voxel-wise encoding model.
 ### 3_permu_test_pro_pcs.m was the testing procedure of voxel-wise encoding model.
 ### 4_plot_prop_pcs_result.py plotted encoding performance and property tuning map in human brain cortex.
 ### 4_result_plotting_prop_pcs.ipynb generated the property-selective clusters and analyzed their functions.
 
-## property-clusters-category relations analyzed on TDANN
+## Property-clusters-category relations analyzed on TDANN
 ### 5_model_feature_extraction.ipynb extracted THINGS image features from many visual model.
 ### 5_tdann-feature_extractor.py extracted THINGS image features from TDANN model.
 ### 5_prepare_tdann_data_for_encoding_model.ipynb prepared training and testing set of image property - TDANN feature pairs.
 ### 6_ann-brain-plsr.ipynb projected brain clusters on TDANN and analyzed their property tuning and representational map in model.
 ### 6_tdann-prop_analysis.ipynb analyzed the classification performance during the cluster-selective units were controlled.
 
-
+## Data and model availability
+THINGS object concept and image database and metadata about human cognitive ratings of object properties are available at https://osf.io/jum2f/; 
+fMRI data set is provided at https://doi.org/10.25452/Figshare.plus.c.6161151.v1. 
+In addition, the TDANN model can be accessible at https://github.com/neuroailab/TDANN.
 
